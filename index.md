@@ -1,8 +1,6 @@
 ## Welcome to Slide to Unlock
 
-<h1>Welcome to Slide to Unlock</h1>
-  <h1 style="font family:color:powderbule;">Welcome to Slide to Unlock</h1>
-
+  <h1 style="font-family:color:powderbule;">Welcome to Slide to Unlock</h1>
 
 You can use the [editor on GitHub](https://github.com/5000e1/slidetounlock/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
