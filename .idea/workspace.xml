@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45bbf84a-be43-4fd7-b3df-cb836d9937d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/000/001.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/000/Sunflower.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/000/炸鸡.png" afterDir="false" />
+    <list default="true" id="45bbf84a-be43-4fd7-b3df-cb836d9937d5" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/000/002random.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/000/000.html" beforeDir="false" afterPath="$PROJECT_DIR$/000/000.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/000/CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/000/CSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/000/000.html" beforeDir="false" afterPath="$PROJECT_DIR$/000/000cake(bgm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/000/001.html" beforeDir="false" afterPath="$PROJECT_DIR$/000/001password(bgm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/000/e.wav" beforeDir="false" afterPath="$PROJECT_DIR$/000/piano.wav" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +38,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/001" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/001" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/002" />
+      <recent name="$PROJECT_DIR$/001" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,7 +72,9 @@
       <workItem from="1584146028054" duration="1408000" />
       <workItem from="1585352040275" duration="160000" />
       <workItem from="1585357194085" duration="7000" />
-      <workItem from="1586161044191" duration="772000" />
+      <workItem from="1586161044191" duration="1464000" />
+      <workItem from="1586162859329" duration="512000" />
+      <workItem from="1586166191905" duration="1149000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1582726218076</created>
@@ -143,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582803638668</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1">
+      <created>1586161829426</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586161829426</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,10 +180,14 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="165" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1366.745@0.23.1366.745" timestamp="1582793039331" />
-    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1582803638429">
+    <state x="441" y="205" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586163207044">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1582803638429" />
+    <state x="441" y="205" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1366.745@0.23.1366.745" timestamp="1586163207044" />
+    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1586161858805">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1586161858805" />
     <state x="541" y="336" key="Github.Dialog.Accounts.Choose" timestamp="1586161685586">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
@@ -175,14 +196,14 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="192" y="34" key="SettingsEditor/0.23.1366.745@0.23.1366.745" timestamp="1582802592482" />
-    <state x="283" y="135" key="Vcs.Push.Dialog.v2" timestamp="1586161786117">
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2" timestamp="1586161834085">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="283" y="135" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1586161786117" />
-    <state x="363" y="31" width="639" height="729" key="find.popup" timestamp="1582804912762">
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1586161834085" />
+    <state x="363" y="31" width="639" height="729" key="find.popup" timestamp="1586168643399">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="363" y="31" width="639" height="729" key="find.popup/0.23.1366.745@0.23.1366.745" timestamp="1582804912762" />
+    <state x="363" y="31" width="639" height="729" key="find.popup/0.23.1366.745@0.23.1366.745" timestamp="1586168643399" />
     <state x="410" y="194" key="git4idea.merge.GitPullDialog" timestamp="1582793930503">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
