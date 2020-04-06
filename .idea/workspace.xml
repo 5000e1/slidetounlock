@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbf84a-be43-4fd7-b3df-cb836d9937d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/000/CSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/000/001.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/000/Sunflower.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/000/炸鸡.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/000/000.html" beforeDir="false" afterPath="$PROJECT_DIR$/000/000.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/000/CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/000/CSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -32,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -53,7 +58,13 @@
       <workItem from="1582786929766" duration="1395000" />
       <workItem from="1582789139292" duration="150000" />
       <workItem from="1582792801821" duration="244000" />
-      <workItem from="1582793067871" duration="5474000" />
+      <workItem from="1582793067871" duration="10811000" />
+      <workItem from="1583901401471" duration="287000" />
+      <workItem from="1584145945433" duration="60000" />
+      <workItem from="1584146028054" duration="1408000" />
+      <workItem from="1585352040275" duration="160000" />
+      <workItem from="1585357194085" duration="7000" />
+      <workItem from="1586161044191" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1582726218076</created>
@@ -125,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582793872017</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1">
+      <created>1582803638668</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582803638668</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,18 +163,26 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="165" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1366.745@0.23.1366.745" timestamp="1582793039331" />
-    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1582793871817">
+    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1582803638429">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1582793871817" />
+    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1582803638429" />
+    <state x="541" y="336" key="Github.Dialog.Accounts.Choose" timestamp="1586161685586">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="541" y="336" key="Github.Dialog.Accounts.Choose/0.23.1366.745@0.23.1366.745" timestamp="1586161685586" />
     <state x="192" y="34" key="SettingsEditor" timestamp="1582802592482">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="192" y="34" key="SettingsEditor/0.23.1366.745@0.23.1366.745" timestamp="1582802592482" />
-    <state x="283" y="135" key="Vcs.Push.Dialog.v2" timestamp="1582802617178">
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2" timestamp="1586161786117">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="283" y="135" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1582802617178" />
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1586161786117" />
+    <state x="363" y="31" width="639" height="729" key="find.popup" timestamp="1582804912762">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="363" y="31" width="639" height="729" key="find.popup/0.23.1366.745@0.23.1366.745" timestamp="1582804912762" />
     <state x="410" y="194" key="git4idea.merge.GitPullDialog" timestamp="1582793930503">
       <screen x="0" y="23" width="1366" height="745" />
     </state>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math</title>
+    <script>
+        function isInterger(obj){
+            return obj%1 === 0
+        }
+
+
+        var password = prompt("Please tell us your password:");
+        if ( isNaN( password ) ){
+            alert("please inter number:)");
+        }
+        else {
+            if(isInterger(password)) {
+                if (password == 12345) {
+                    alert("☑️");
+                } else {
+                    alert("Wrong answer!😠\nBe honest!!🤬");
+                }
+            }
+            else{
+                alert("please inter interger!");
+            }
+        }
+    </script>
+    <style type="text/css">
+        body{
+            background-image:url('炸鸡.png');
+            background-size:70% 70%;
+        }
+        html{
+            height:100%;
+            width:60%;
+            position:absolute;
+            margin-left:30%;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+</html>

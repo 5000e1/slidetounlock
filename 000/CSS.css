@@ -2,7 +2,7 @@ page{
     font-size:60px;
 }
 body{
-    background-image:url(乳酪蛋糕.png);
+    background-image:url('乳酪蛋糕.png');
     background-size: 140% 140%;
 }
 html{
@@ -43,6 +43,7 @@ p{
 }
 #yingwen{
     animation:two 3s infinite;
+    display:block;
 }
 #zhongwen{
     animation:three 3s infinite;
