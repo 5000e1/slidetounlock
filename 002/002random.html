@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>random</title>
+    <title>Food?</title>
     <script>
         var a = Math.random();
-        if (a > 0.5) {
-            document.write("Go!");
+        a = Math.floor(a * 2);
+        if (a < 1) {
+            document.write("Hambuger!");
+            document.write("<img src='"+a+".png'/>");
         } else {
-            document.write("Stop!");
+            document.write("Hot Dog!");
+            document.write("<img src='"+a+".png'/>");
         }
     </script>
 </head>
 <body>
-
+<h1>What's your favorite food?</h1>
 </body>
 </html>
