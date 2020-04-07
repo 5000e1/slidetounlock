@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess</title>
+</head>
+<body>
+<div id="message"></div>
+</body>
+</html>
+
+<script>
+    function guess(){
+        var guess = prompt("Guess:");
+        if(guess==a){
+            document.getElementById("message").innerHTML="Bingo!";
+        }else{
+            document.write("Wrong!");
+        }
+    }
+    var a = Math.random();
+    a = Math.floor(a * 6);
+    console.info(a);
+    guess();
+
+</script>
