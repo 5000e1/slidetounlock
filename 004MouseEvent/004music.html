@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music</title>
+    <style>
+        #bgmButton{
+            background-image: url("music.gif");
+        }
+    </style>
+</head>
+<body>
+<audio id="bgm" src="アイロニ.mp3" preload="auto" autoplay="autoplay"></audio>
+<div id="bgmButton" onclick="control"></div>
+</body>
+</html>
+<script>
+    function control(){
+        document.getElementById("bgm").pause();
+    }
+</script>
