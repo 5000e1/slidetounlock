@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pk</title>
+    <style>
+        #container{
+            height:300px;
+            width:600px;
+            margin:0 auto;
+            border:10px solid black;
+        }
+        #container>div{
+            height:300px;
+            width:300px;
+            float:left;
+        }
+        #mine{
+            background-color:lightblue;
+        }
+        #computer{
+            background-color:pink;
+        }
+        #myChoice>IMG{
+            transform:scaleX(-1);
+        }
+        p{
+            text-align:center;
+        }
+        #container>#result{
+            font-size:40px;
+            text-align:center;
+            width:600px;
+            margin-top:20px;
+        }
+        #button{
+            text-align:center;
+            margin-left:20px;
+            width:70px;
+        }
+    </style>
+</head>
+<body onload="go()">
+<div id="container">
+    <div id="computer">
+        <p>computer</p>
+        <div id="computerChoices">
+            <img src="cdk.gif"/>
+        </div>
+    </div>
+    <div id="mine">
+        <p>me</p>
+        <div id="myChoice">
+            <img src="cdk.gif"/>
+        </div>
+        <input type="button" value="rock" onclick="rock()" id="button">
+        <input type="button" value="scissors" onclick="scissors()" id="button">
+        <input type="button" value="paper" onclick="paper()" id="button">
+    </div>
+    <div id="result">Are You Ready?</div>
+</div>
+</body>
+<script>
+    var r;
+    function rock(){
+        document.getElementById("myChoice").innerHTML="<img src='rock.png'/>";
+        var computerResult = computerchoice();
+        judge("rock",computerResult);
+    }
+    function scissors(){
+        document.getElementById("myChoice").innerHTML="<img src='scissors.png'/>";
+        var computerResult = computerchoice();
+        judge("scissors",computerResult);
+    }
+    function paper(){
+        document.getElementById("myChoice").innerHTML="<img src='paper.png'/>";
+        var computerResult = computerchoice();
+        judge("paper",computerResult);
+    }
+    function go(){
+        r = Math.random()*3;
+    }
+    function computerchoice(){
+        if(r<1){
+            document.getElementById("computerChoices").innerHTML="<img src='rock.png'/>";
+            return "rock";
+        }
+        else if(r>2){
+            document.getElementById("computerChoices").innerHTML="<img src='paper.png'/>";
+            return "paper";
+        }
+        else{
+            document.getElementById("computerChoices").innerHTML="<img src='scissors.png'/>";
+            return "scissors";
+        }
+    }
+    function judge(myChoice,computerResult){
+        if(myChoice=="rock"){
+            if(computerResult=="rock"){
+                document.getElementById("result").innerHTML="Draw!";
+            }
+            else if(computerResult=="paper"){
+                document.getElementById("result").innerHTML="You Lose!";
+            }
+            else if(computerResult=="scissors"){
+                document.getElementById("result").innerHTML="You Win!";
+            }
+        }
+        else if(myChoice=="paper"){
+            if(computerResult=="rock"){
+                document.getElementById("result").innerHTML="You Win!";
+            }
+            else if(computerResult=="paper"){
+                document.getElementById("result").innerHTML="Draw!";
+            }
+            else if(computerResult=="scissors"){
+                document.getElementById("result").innerHTML="You Lose!";
+            }
+        }
+        else if(myChoice=="scissors"){
+            if(computerResult=="rock"){
+                document.getElementById("result").innerHTML="You Lose!";
+            }
+            else if(computerResult=="paper"){
+                document.getElementById("result").innerHTML="You Win!";
+            }
+            else if(computerResult=="scissors"){
+                document.getElementById("result").innerHTML="Draw!";
+            }
+        }
+    }
+</script>
+</html>

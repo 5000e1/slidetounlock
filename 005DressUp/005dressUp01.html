@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dressUp</title>
+    <style>
+        #body{
+            height:1536px;
+            width:2048px;
+            background-image:url("body.png");
+        }
+        #hair{
+            height:1536px;
+            width:2048px;
+            background-image:url("hair1.png");
+        }
+        #upper{
+            height:1536px;
+            width:2048px;
+            background-image:url("upper1.png");
+        }
+        #dress{
+            height:1536px;
+            width:2048px;
+            background-image:url("dress1.png");
+        }
+    </style>
+</head>
+<body>
+<div id="menu">
+    <div id="hair2" onclick="hair2()">hair</div>
+    <div id="upper2" onclick="upper2()">upper</div>
+    <div id="dress2" onclick="dress2()">dress</div>
+</div>
+<div id="body">
+    <div id="hair">
+        <div id="upper">
+            <div id="dress"></div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    function hair2(){
+        document.getElementById("hair").style.backgroundImage = "url('hair2.png')";
+    }
+    function upper2(){
+        document.getElementById("upper").style.backgroundImage = "url('upper2.png')";
+    }
+    function dress2(){
+        document.getElementById("dress").style.backgroundImage = "url('dress2.png')";
+    }
+</script>
+</html>

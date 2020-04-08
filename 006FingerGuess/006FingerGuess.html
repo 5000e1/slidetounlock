@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess</title>
+</head>
+<body onload="go()">
+</body>
+<script>
+    function go(){
+        var r = Math.random()*3;
+        if(r<1){
+            document.body.innerHTML="<img src='paper.png'>";
+        }
+        else if(r>2){
+            document.body.innerHTML="<img src='rock.png'>";
+        }
+        else{
+            document.body.innerHTML="<img src='scissors.png'>";
+        }
+    }
+</script>
+</html>

@@ -5,17 +5,27 @@
     <title>Music</title>
     <style>
         #bgmButton{
-            background-image: url("music.gif");
+            height:1536px;
+            width:2048px;
+            background-image: url("music.gif") ;
         }
     </style>
+
 </head>
 <body>
 <audio id="bgm" src="アイロニ.mp3" preload="auto" autoplay="autoplay"></audio>
-<div id="bgmButton" onclick="control"></div>
+<div id="bgmButton" onclick="control()"></div>
 </body>
-</html>
 <script>
     function control(){
-        document.getElementById("bgm").pause();
+        if(document.getElementById("bgm").paused) {
+            document.getElementById("bgm").play();
+            document.getElementById("bgmButton").style.backgroundImage = "url('music.gif')";
+        }
+        else{
+            document.getElementById("bgm").pause();
+            document.getElementById("bgmButton").style.backgroundImage = "url('stoped.png')";
+        }
     }
 </script>
+</html>
