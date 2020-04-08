@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbf84a-be43-4fd7-b3df-cb836d9937d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/006FingerGuess/006grade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006FingerGuess/006score.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006FingerGuess/006grade3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006FingerGuess/006grade4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006FingerGuess/006FingerGuess.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/006FingerGuess/006pk.html" beforeDir="false" afterPath="$PROJECT_DIR$/006FingerGuess/006pk.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <workItem from="1586266193362" duration="14000" />
       <workItem from="1586266258872" duration="60000" />
       <workItem from="1586266387543" duration="10933000" />
-      <workItem from="1586315771258" duration="3572000" />
+      <workItem from="1586315771258" duration="10488000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1582726218076</created>
@@ -246,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586318009708</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="1">
+      <created>1586320661156</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1586320661156</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,10 +275,10 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="441" y="205" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1366.745@0.23.1366.745" timestamp="1586163207044" />
-    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1586318009500">
+    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1586320660721">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1586318009500" />
+    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1586320660721" />
     <state x="541" y="336" key="Github.Dialog.Accounts.Choose" timestamp="1586315898835">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
@@ -286,10 +291,10 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="192" y="34" key="SettingsEditor/0.23.1366.745@0.23.1366.745" timestamp="1586317198462" />
-    <state x="283" y="135" key="Vcs.Push.Dialog.v2" timestamp="1586318012490">
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2" timestamp="1586320662853">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="283" y="135" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1586318012490" />
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1586320662853" />
     <state x="100" y="123" width="1166" height="545" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586168924116">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
