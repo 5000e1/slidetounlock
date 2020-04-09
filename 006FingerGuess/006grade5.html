@@ -204,6 +204,8 @@
     function getResultExclude(exclusion) {
         var temp = computerchoice();
         if(temp==exclusion){
+            r = Math.random()*3;
+            computerchoice();
             return getResultExclude(exclusion);
         }
         else{
