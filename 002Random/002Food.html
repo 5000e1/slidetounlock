@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Food?</title>
+    <style>
+        body{
+            color:lightcoral;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 <h1>What's your favorite food?</h1>
@@ -10,11 +16,11 @@
     var a = Math.random();
     a = Math.floor(a * 2);
     if (a < 1) {
-        document.write("Hambuger!");
-        document.write("<img src='"+a+".png'/>");
+        document.write("Hambuger!<br/>");
+        document.write("<img width='50%' align='top' src='"+a+".png'/>");
     } else {
-        document.write("Hot Dog!");
-        document.write("<img src='"+a+".png'/>");
+        document.write("Hot Dog!<br/>");
+        document.write("<img width='50%' align='top' src='"+a+".png'/>");
     }
 </script>
 </body>
