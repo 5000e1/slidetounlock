@@ -62,24 +62,40 @@
 </body>
 <script>
     var r,score=0,grade=1,lastHuman;
-    var winner="noone",lastcomputer,humanchoice;
+    var winner="noone",lastcomputer,humanchoice,e;
+    function go() {
+        r = Math.random()*3;
+        if(r<1){
+            e = "rock";
+        }
+        else if(r>2){
+            e = "paper";
+        }
+        else{
+            e = "scissors";
+        }
+        console.info(e);
+    }
     function rock(){
         document.getElementById("myChoice").innerHTML="<img src='rock.png'/>";
         humanchoice = "rock";
         judge("rock");
         lastHuman = "rock";
+        go();
     }
     function scissors(){
         document.getElementById("myChoice").innerHTML="<img src='scissors.png'/>";
         humanchoice = "scissors";
         judge("scissors");
         lastHuman = "scissors";
+        go();
     }
     function paper(){
         document.getElementById("myChoice").innerHTML="<img src='paper.png'/>";
         humanchoice = "paper";
         judge("paper");
         lastHuman = "paper";
+        go();
     }
     function computerchoice(){
         if(r<1){
@@ -96,7 +112,7 @@
         }
     }
     function judge(myChoice){
-        r = Math.random()*3;
+
         var computerResult;
         if(grade==1){
             computerResult = onlyrock();
