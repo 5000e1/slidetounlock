@@ -3,11 +3,9 @@ page{
 }
 body{
     background-image:url('乳酪蛋糕.png');
-    background-size: 140% 140%;
-}
-html{
-    width:60%;
-    height:100%;
+    background-position:270px 70px;
+    background-repeat:no-repeat;
+    background-size: 70%;
 }
 @keyframes one{
     from{
@@ -31,19 +29,17 @@ html{
 }
 p{
     font-size:25px;
-    padding-left:28%;
-    text-align:center;
+    left:580px;
     position:absolute;
     animation:one 3s infinite;
 }
 #c{
     animation:one 3s infinite;
-    padding-left:50%;
-    padding-right:50%;
+    padding-left:595px;
+    padding-right:595px;
 }
 #yingwen{
     animation:two 3s infinite;
-    display:block;
 }
 #zhongwen{
     animation:three 3s infinite;
