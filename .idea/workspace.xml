@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbf84a-be43-4fd7-b3df-cb836d9937d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/005DressUp/005dressUp03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005DressUp/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005DressUp/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005DressUp/3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005DressUp/005dressUp01.html" beforeDir="false" afterPath="$PROJECT_DIR$/005DressUp/005dressUp01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005DressUp/005dressUp02.html" beforeDir="false" afterPath="$PROJECT_DIR$/005DressUp/005dressUp02.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +47,16 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/002" />
+      <recent name="$PROJECT_DIR$/001" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/005DressUp" />
       <recent name="$PROJECT_DIR$/004MouseEvent" />
       <recent name="$PROJECT_DIR$/002Random" />
       <recent name="$PROJECT_DIR$/000Cake" />
       <recent name="$PROJECT_DIR$/006FingerGuess" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/002" />
-      <recent name="$PROJECT_DIR$/001" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -87,7 +89,8 @@
       <workItem from="1586315771258" duration="11953000" />
       <workItem from="1586401192744" duration="845000" />
       <workItem from="1586426080528" duration="3479000" />
-      <workItem from="1586431399848" duration="9821000" />
+      <workItem from="1586431399848" duration="10444000" />
+      <workItem from="1586485402606" duration="1616000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1582726218076</created>
@@ -313,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586442375715</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="1">
+      <created>1586444413485</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1586444413485</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,10 +351,10 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="421" y="149" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1366.745@0.23.1366.745" timestamp="1586402008126" />
-    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1586442375165">
+    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1586444413076">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1586442375165" />
+    <state x="294" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1586444413076" />
     <state x="541" y="336" key="Github.Dialog.Accounts.Choose" timestamp="1586315898835">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
@@ -361,10 +371,10 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state width="662" height="445" key="SwitcherDM/0.23.1366.745@0.23.1366.745" timestamp="1586440954950" />
-    <state x="283" y="135" key="Vcs.Push.Dialog.v2" timestamp="1586442377898">
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2" timestamp="1586444416567">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="283" y="135" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1586442377898" />
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1586444416567" />
     <state x="100" y="123" width="1166" height="545" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586168924116">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
