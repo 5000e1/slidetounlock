@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>
+        #body{
+            height:1536px;
+            width:2048px;
+            background-image:url("body.png");
+            background-size: 40%;
+            background-repeat:no-repeat;
+            position:absolute;
+            margin:50px;
+            z-index:-1;
+        }
+        #body div{
+            height:1536px;
+            width:2048px;
+            position:absolute;
+            background-size: 40%;
+            background-repeat:no-repeat;
+            z-index:-1;
+        }
+        ul{
+            /*float:left;*/
+            /*width:100%;*/
+            list-style-type:none;
+        }
+        a{
+            text-decoration:none;
+            color:white;
+            float:left;
+            padding:2.5em 6em;
+            background-color:lightblue;
+            border-right:5px solid white;
+
+        }
+        a:hover{
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+<ul id="menu">
+    <li><a href="#" id="hair2" onclick="hair2()">hair</a></li>
+    <li><a href="#" id="upper2" onclick="upper2()">upper</a></li>
+    <li><a href="#" id="dress2" onclick="dress2()">dress</a></li>
+</ul>
+<div id="body">
+    <div id="hair"></div>
+    <div id="upper"></div>
+    <div id="dress"></div>
+</div>
+</body>
+<script>
+    var hairIs,upperIs,dressIs;
+    function hair2(){
+        if(hairIs=="hair1"){
+            document.getElementById("hair").style.backgroundImage = "url('hair2.png')";
+            return hairIs = "hair2";
+        }
+        else {
+            document.getElementById("hair").style.backgroundImage = "url('hair1.png')";
+            return hairIs = "hair1";
+        }
+    }
+    function upper2(){
+        if(upperIs=="upper1"){
+            document.getElementById("upper").style.backgroundImage = "url('upper2.png')";
+            return upperIs = "upper2";
+        }
+        else {
+            document.getElementById("upper").style.backgroundImage = "url('upper1.png')";
+            return upperIs = "upper1";
+        }
+    }function dress2(){
+        if(dressIs=="dress1"){
+            document.getElementById("dress").style.backgroundImage = "url('dress2.png')";
+            return dressIs = "dress2";
+        }
+        else {
+            document.getElementById("dress").style.backgroundImage = "url('dress1.png')";
+            return dressIs = "dress1";
+        }
+    }
+</script>
+</html>
